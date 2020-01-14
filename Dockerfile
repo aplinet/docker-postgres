@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM postgres:10.11
 RUN apt-get update && apt-get install -y vim
 RUN mv /etc/localtime /etc/localtime.old \
  && ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime \
