@@ -8,4 +8,5 @@ ENV PGPORT 5400
 COPY pl_pl.affix /usr/share/postgresql/10/tsearch_data/
 COPY pl_pl.dict /usr/share/postgresql/10/tsearch_data/
 COPY polish.stop /usr/share/postgresql/10/tsearch_data/
+COPY thesaurus_custom.ths /usr/share/postgresql/10/tsearch_data/
 EXPOSE 5400
